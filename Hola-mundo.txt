@@ -1,2 +1,10 @@
-!Hola, Mundo¡ 
-Creando un nuevo archivo en el repositorio
+PASOS
+
+INSTALAR NEST.JS EN UNA CARPETA ESPECIFICA
+nest new .
+
+SUBIR DOCKER
+docker compose up -d
+
+CREAR UN NUEVO CRUD DE NEST EN EL PROYECTO
+nest g res **nombre** --no-spec
