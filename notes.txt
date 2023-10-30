@@ -1,0 +1,16 @@
+INSTALACIONES
+
+PARA CREAR UN NUEVO PROYECTO DE NEST EN UNA CARPETA ESPECIFICA
+nest new .
+
+Para hacer correr docker, antes de eso debo crear el archivo docker-compose.yml
+docker compose up -d 
+
+Para instalar validator y transformer
+npm install class-validator class-transformer -SE
+
+Para instalar la libreria de typeorm que nos ayudara con la base de datos 
+npm install @nestjs/typeorm typeorm mysql2
+
+Para crear un nuevo crud en una carpeta
+nest g resource **nombre** --no-spec
