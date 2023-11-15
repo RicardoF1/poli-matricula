@@ -36,29 +36,5 @@ export class TeacherController {
   remove(@Param('id') id: string) {
     return this.teacherService.remove(+id);
   }
-  @Get()
-  create2(@Body() createTeacherDto: CreateTeacherDto) {
-    return this.teacherService.create(createTeacherDto);
-  }
-  @Post()
-  create3(@Body() createTeacherDto: CreateTeacherDto) {
-    return this.teacherService.create(createTeacherDto);
-  }
-  @Post()
-  create4(@Body() createTeacherDto: CreateTeacherDto) {
-    return this.teacherService.create(createTeacherDto);
-  }
-  @Get()
-  create0(@Body() createTeacherDto: CreateTeacherDto) {
-    return this.teacherService.create(createTeacherDto);
-  }
-  @Get()
-  crdeate0(@Body() createTeacherDto: CreateTeacherDto) {
-    return this.teacherService.create(createTeacherDto);
-  }
-  @Get()
-  csreate0(@Body() createTeacherDto: CreateTeacherDto) {
-    return this.teacherService.create(createTeacherDto);
-  }
   
 }
