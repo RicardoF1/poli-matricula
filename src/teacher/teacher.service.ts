@@ -18,6 +18,14 @@ export class TeacherService {
     const resu = await this.teacherRepository.query(`CALL uspNoEspecialidad(?)`,[id])
     return resu[0];
   }
+  async sourcetree(id: string){
+    const resu = await this.teacherRepository.query(`CALL uspNoEspecialidad(?)`,[id])
+    return resu[0];
+  }
+  async sourcetree2(id: string){
+    const resu = await this.teacherRepository.query(`CALL uspNoEspecialidad(?)`,[id])
+    return resu[0];
+  }
 
   findAll() {
     return `This action returns all teacher`;
