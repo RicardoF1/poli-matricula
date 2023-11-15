@@ -42,4 +42,12 @@ export class TeacherService {
   remove(id: number) {
     return `This action removes a #${id} teacher`;
   }
+  async primero(id: string){
+    const resu = await this.teacherRepository.query(`CALL uspNoEspecialidad(?)`,[id])
+    return resu[0];
+  }
+  async segundo(id: string){
+    const resu = await this.teacherRepository.query(`CALL uspNoEspecialidad(?)`,[id])
+    return resu[0];
+  }
 }
