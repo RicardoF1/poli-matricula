@@ -12,11 +12,10 @@ export class TeacherController {
   mostrar(@Param('id') id:string){
     return this.teacherService.tea(id)
   }
-  @Post()
+  /*@Post()
   create(@Body() createTeacherDto: CreateTeacherDto) {
     return this.teacherService.create(createTeacherDto);
   }
-
   @Get()
   findAll() {
     return this.teacherService.findAll();
@@ -35,6 +34,6 @@ export class TeacherController {
   @Delete(':id')
   remove(@Param('id') id: string) {
     return this.teacherService.remove(+id);
-  }
+  }*/
   
 }

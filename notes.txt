@@ -14,3 +14,7 @@ npm install @nestjs/typeorm typeorm mysql2
 
 Para crear un nuevo crud en una carpeta
 nest g resource **nombre** --no-spec
+
+Para instalar el swagger
+# Swagger
+$ npm i @nestjs/swagger -SE
