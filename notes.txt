@@ -18,3 +18,11 @@ nest g resource **nombre** --no-spec
 Para instalar el swagger
 # Swagger
 $ npm i @nestjs/swagger -SE
+
+
+Crear el modulo auth
+nest g module auth
+crear el controller de auth
+nest g controller auth
+crear el service de auth 
+nest g service auth
