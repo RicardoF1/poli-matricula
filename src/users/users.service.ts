@@ -7,9 +7,12 @@ import { Repository } from 'typeorm';
 
 @Injectable()
 export class UsersService {
-  constructor(@InjectRepository(User)
-  private readonly userRepository: Repository<User>){}
+  constructor(@InjectRepository(User)            //indica a Nest.js que debe inyectar un repositorio de TypeORM asociado con la entidad, en este caso User   
+  private readonly userRepository: Repository<User>){}   // Especifica el tipo de la propiedad. En este caso User
 
+
+  //constructor lo entiendo como que ayuda para reducir el codigo y no tener que mencionar o llamar a la entidad en este caso
+  //para cuando se crea una funcion podamos llamarlo 
   create(createUserDto: CreateUserDto) {
     return this.userRepository;
   }

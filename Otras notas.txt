@@ -1,0 +1,11 @@
+Repositorio:
+Definición: Un repositorio es un componente que se encarga de gestionar la comunicación entre tu aplicación y la base de datos. 
+Proporciona métodos para realizar operaciones de lectura y escritura en la base de datos relacionadas con una entidad específica.
+
+Constructor:
+Definición: El constructor es un método especial en una clase que se llama automáticamente cuando se crea una instancia de esa clase. 
+En el contexto de TypeScript y otros lenguajes de programación orientados a objetos, el constructor se utiliza para inicializar propiedades de la instancia.
+
+Entidad:
+Definición: En el contexto de TypeORM, una entidad es una clase que representa un modelo de datos en tu aplicación. 
+La entidad mapea a una tabla en la base de datos.
